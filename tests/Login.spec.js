@@ -7,7 +7,7 @@ test('[@smoke] User can log in successfully', async ({ page }) => {
   await page.fill('#input-password', 'Test@123');
   await page.click('input[value="Login"]');
   await expect(page.locator('h2')).toContainText('My Account');
-  //test git
+  //Neeta made changes
 });
 
 test('[@regression] Verify login with invalid credentials', async ({ page }) => {
