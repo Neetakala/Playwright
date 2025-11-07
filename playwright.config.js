@@ -24,13 +24,13 @@ const config = {
     {
       name: 'chromium',
       use: { browserName: 'chromium' },
-      testMatch: /.*Registration\.spec\.js/,   // only run Registration tests here
-    },
-    {
-      name: 'firefox',
-      use: { browserName: 'firefox' },
-      testMatch: /^(?!.*Registration\.spec\.js).*\.spec\.js/,  // run all tests except Registration on firefox
-    },
+    //  testMatch: /.*Registration\.spec\.js/,   // only run Registration tests here
+    }
+    // {
+    //   name: 'firefox',
+    //   use: { browserName: 'firefox' },
+    //   testMatch: /^(?!.*Registration\.spec\.js).*\.spec\.js/,  // run all tests except Registration on firefox
+    // },
   ],
 };
 
